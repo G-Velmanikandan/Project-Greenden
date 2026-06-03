@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenden</title>
+    <link rel="icon" href="./images/tree-logo.jpg" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header
+      class="bg-olive-100 p-4 flex items-center justify-between shadow-xl sticky top-0"
+    >
+      <h1 class="text-2xl font-bold text-emerald-800">
+        <i class="fa-solid fa-tree" style="color: rgb(11, 101, 33)"></i>GREENDEN
+      </h1>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 text-emerald-800 md:hidden"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+
+      <ul class="gap-5 hidden md:flex">
+        <li>
+          <a class="hover:text-green-500 hover:underline" href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a class="hover:text-green-500 hover:underline" href="product.html">Products</a>
+        </li>
+
+        <li>
+          <a class="hover:text-green-500 hover:underline" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <button class="bg-green-700 text-white p-2 rounded-xl hidden md:flex">
+        Shop Now
+      </button>
+    </header>
+
+    <main>
+      <section-one class="bg-olive-100 p-5 flex justify-center">
+        <div>
+          <button class="bg-green-100 text-green-600 p-2 rounded-full mb-4">
+            <i class="fa-solid fa-leaf" style="color: rgb(12, 178, 53)"></i
+            >Naturally Beautiful
+          </button>
+
+          <p class="font-bold text-5xl mb-6">
+            Bring <span class="text-green-600">Nature</span><br />
+            Closer to you
+          </p>
+          <p class="font-semibold text-xl mb-6">
+            Greenden offers a wide range of plants and <br />green products to
+            make your space fresh,<br />healthy,and beautiful
+          </p>
+          <button class="bg-green-700 text-white px-4 py-3 rounded-full">
+            Explore Products &nbsp;<i
+              class="fa-solid fa-arrow-right"
+              style="color: rgb(247, 247, 247)"
+            ></i>
+          </button>
+        </div>
+
+        <div class="hidden md:block">
+          <img
+            src="./images/Sunlight desk.jpg"
+            alt="Sunlight"
+            class="w-100 h-80 p-10"
+          />
+        </div>
+      </section-one>
+    </main>
+
+    <section class="md:flex">
+      <div
+        class="flex-1 flex flex-col bg-green-100 p-10 m-5 text-center rounded-3xl"
+      >
+        <div class="text-3xl">🌿</div>
+        <h2 class="font-bold text-2xl">Premium Quality</h2>
+        <p>Handpicked plants and green products of the highest quality.</p>
+      </div>
+
+      <div
+        class="flex-1 flex flex-col bg-green-100 p-10 m-5 text-center rounded-3xl"
+      >
+        <div class="text-3xl">🌱</div>
+        <h2 class="font-bold text-2xl">Eco Friendly</h2>
+        <p>Sustainable and eco-friendly products for a greener planet.</p>
+      </div>
+
+      <div
+        class="flex-1 flex flex-col bg-green-100 p-10 m-5 text-center rounded-3xl"
+      >
+        <div class="text-3xl">🚚</div>
+        <h2 class="font-bold text-2xl">Fast Delivery</h2>
+        <p>Quick and safe delivery to your doorstep.</p>
+      </div>
+    </section>
+
+    <section class="flex items-center justify-around">
+      <div class="p-8">
+        <h1 class="font-bold text-4xl mb-6">Why Choose Greenden?</h1>
+        <p class="mb-5 text-xl">
+          We are passionate about plants and <br />
+          commited to providing the best green <br />
+          experience for our customers.
+        </p>
+        <ol class="text-xl">
+          <li class="mb-3 text-xl">
+            <i
+              class="fa-brands fa-canadian-maple-leaf"
+              style="color: rgb(9, 85, 62)"
+            ></i
+            >Wide variety of plants
+          </li>
+          <li class="mb-3 text-xl">
+            <i
+              class="fa-brands fa-canadian-maple-leaf"
+              style="color: rgb(9, 85, 62)"
+            ></i
+            >Easy return & refund
+          </li>
+          <li class="mb-3 text-xl">
+            <i
+              class="fa-brands fa-canadian-maple-leaf"
+              style="color: rgb(9, 85, 62)"
+            ></i
+            >Customer support
+          </li>
+        </ol>
+      </div>
+
+      <div class="p-6 hidden md:block">
+        <img
+          src="./images/Recommend.jpeg"
+          alt="Beautiful plant"
+          class="w-100 h-70 rounded-4xl"
+        />
+      </div>
+    </section>
+
+    <footer class="bg-olive-100 p-6">
+      <div class="block md:hidden text-center flex-col text-emerald-800">
+        <h3 class="font-medium mb-2">
+          Plant Care Tips <br />
+          in Your Inbox
+        </h3>
+        <p class="mb-2">
+          Subscribe to our newsletter <br />
+          and never miss an update.
+        </p>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="bg-white p-2 rounded-xl"
+        />
+        <button class="bg-green-900 text-white p-2 rounded-xl">
+          Subscribe
+        </button>
+      </div>
+
+      <div class="hidden md:flex justify-between">
+        <div>
+          <h1 class="text-2xl font-bold text-emerald-800 mb-3">
+            <i class="fa-solid fa-tree" style="color: rgb(11, 101, 33)"></i
+            >GREENDEN
+          </h1>
+          <p class="text-emerald-800 mb-3">
+            Beautiful plants, <br />
+            happy spaces, <br />
+            Let's grow together.
+          </p>
+          <i class="fa-brands fa-facebook" style="color: rgb(5, 79, 38)"></i>
+          <i class="fa-brands fa-instagram" style="color: rgb(5, 79, 38)"></i>
+          <i class="fa-brands fa-youtube" style="color: rgb(5, 79, 38)"></i>
+        </div>
+
+        <div class="flex-col text-emerald-800">
+          <h3 class="font-medium mb-2">Quick Links</h3>
+          <ol>
+            <li class="mb-2">Home</li>
+            <li class="mb-2">Products</li>
+            <li class="mb-2">Contact</li>
+          </ol>
+        </div>
+
+        <div class="flex-col text-emerald-800">
+          <h3 class="font-medium mb-2">Useful Links</h3>
+          <ol>
+            <li class="mb-2">Plant Care Guide</li>
+            <li class="mb-2">FAQs</li>
+            <li class="mb-2">Shipping Policy</li>
+            <li class="mb-2">Returns & Refunds</li>
+            <li class="mb-2">Terms & Conditions</li>
+          </ol>
+        </div>
+
+        <div class="flex-col text-emerald-800">
+          <h3 class="font-medium mb-2">Contact info</h3>
+          <ol>
+            <li class="mb-2">+91 9876543221</li>
+            <li class="mb-2">care@greenden.com</li>
+            <li class="mb-2">34 Nature Road,<br />Chennai,632601</li>
+          </ol>
+        </div>
+
+        <div class="flex-col text-emerald-800">
+          <h3 class="font-medium mb-2">
+            Plant Care Tips <br />
+            in Your Inbox
+          </h3>
+          <p class="mb-2">
+            Subscribe to our newsletter <br />
+            and never miss an update.
+          </p>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="bg-white p-2 rounded-xl"
+          />
+          <button class="bg-green-900 text-white p-2 rounded-xl">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center py-6">
+        <div class="flex items-center w-310">
+          <div class="flex-1 border-t border-green-500"></div>
+
+          <i class="fa-solid fa-tree" style="color: rgb(11, 101, 33)"></i>
+
+          <div class="flex-1 border-t border-green-500"></div>
+        </div>
+
+        <p class="mt-2 text-emerald-800 text-center text-xl">
+          &copy; 2026 Greenden. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
