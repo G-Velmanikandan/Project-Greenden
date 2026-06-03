@@ -1,3 +1,5 @@
+Built a responsive Greenden multi-page website from scratch by using HTML and Tailwindcss, optimized for both desktop and mobile devices.
+
 # Project-Greenden
 
 Greenden is a responsive multi-page website built using HTML and Tailwind CSS. It was developed as a practice project to strengthen frontend development skills and understand how modern websites are structured using utility-first CSS.
